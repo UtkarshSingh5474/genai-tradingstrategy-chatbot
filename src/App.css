@@ -1,0 +1,125 @@
+/* App.css */
+
+/* General styling */
+body {
+  background-image: url("./assets/images/bg.jpg");
+  background-size: cover;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  overflow: hidden;
+}
+html {
+  font-family: "Rubik", sans-serif;
+}
+.glfuN {
+  background-color: #2874f0 !important;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust chatbot bubble padding */
+  .rsc-ts-bubble {
+    padding-bottom: 20px;
+  }
+
+  /* Adjust chatbot container */
+  .rsc-ts {
+    padding-bottom: 40px;
+  }
+
+  /* Adjust card style for smaller screens */
+  .cardStyle {
+    height: auto;
+  }
+
+  /* Adjust card image for smaller screens */
+  .cardStyle img {
+    height: 150px !important;
+  }
+
+  /* Adjust font size for smaller screens */
+  .lifvqk {
+    font-size: 24px;
+  }
+}
+
+/* Other existing styles */
+
+.App {
+  text-align: center;
+}
+
+#root {
+  height: 100vh;
+}
+
+.rsc-ts-bubble {
+  padding-bottom: 40px;
+  white-space: pre-wrap;
+}
+
+.chatbot-container {
+  margin: 20px; /* Adjust margins as needed */
+  margin-top: 20px;
+}
+.hDUXUW {
+  position: fixed !important;
+  bottom: 0;
+  width: 100%;
+}
+.fBGGBn {
+  height: 80% !important;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust margins and width for smaller screens */
+  .chatbot-container {
+    margin: 10px;
+  }
+}
+
+.chatbot {
+  width: 100%; /* Adjust the width to your preference */
+  margin: 0 auto; /* Center horizontally */
+}
+.dPdbIW {
+  background: rgba(255, 255, 255, 0.5) !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+  backdrop-filter: blur(4px) !important;
+  -webkit-backdrop-filter: blur(4px) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+}
+
+
+.rsc-header {
+  background-color: #498fff !important;
+}
+
+.rounded-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  background-color: #498fff; /* White color with transparency */
+  border-radius: 20px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+  margin: 10px auto;
+}
+
+.box-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.box-content p {
+  font-family: "Rubik", sans-serif !important;
+  font-size: 18px;
+  margin: 0 auto;
+  color: white;
+  font-weight: bolder;
+}
+
