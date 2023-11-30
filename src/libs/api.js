@@ -1,8 +1,9 @@
 
-var apiUrlBase = "https://genai-trading-strategy.el.r.appspot.com/"
+// var apiUrlBase = "https://genai-trading-strategy.el.r.appspot.com/"
+var apiUrlBase = "http://localhost:8080/"
 
 export async function getResponse(input) {
-  const apiUrl = apiUrlBase+'chat?message=${encodeURIComponent(input)}';
+  const apiUrl = apiUrlBase+`chat?message=${encodeURIComponent(input)}`;
 
   try {
     const response = await fetch(apiUrl, {
