@@ -29,13 +29,13 @@ class Chatbot extends React.Component {
       {
         id: "1",
         message:
-          "Hello, I am StockBot. I can analyse any company's financial data.",
+          "Hello, I am Trading Strategy Bot. I can analyse any company's financial data.",
         trigger: "2",
       },
       {
         id: "2",
         message: "Please enter the Company name",
-        trigger: "companyNameInput",
+        trigger: "userInput",
       },
       {
         id: "companyNameInput",
@@ -82,9 +82,10 @@ class Chatbot extends React.Component {
           <ChatBot
             key={this.state.chatbotKey}
             // Chatbot configuration
-            submitButtonStyle={{ backgroundColor: "#FADB22" }}
+            submitButtonStyle={{ backgroundColor: "#176379",fill:"#ffffff" }}
+            bubbleStyle={{ backgroundColor: "#3293AE",fontSize:"18px",color:"#ffffff" }}
             botAvatar="https://yt3.googleusercontent.com/naqldVcm_C0TBDBkGB9rah74wdDQKOa7qGcn-FimmkbVQUzlHhJ5vn8UOYZjF38yHJRfNLlT-FE=s900-c-k-c0x00ffffff-no-rj"
-            headerTitle="StockBot"
+            headerTitle="Trading Strategy Bot"
             className="chatbot"
             hideHeader={false}
             customStyle={{
@@ -109,6 +110,16 @@ class Chatbot extends React.Component {
           >
             Due to trial credits of OpenAI API and GCP the response is slow.
             (Estimate waiting time : 1-2mins)
+          </p>
+          <p
+            style={{
+              textAlign: "center",
+              fontStyle: "italic",
+              fontWeight: "bold",
+              margin: "-15px"
+            }}
+          >
+            Disclaimer: The information provided is generated using AI algorithms which may or may not be correct and does not reflect the opinions or views of any specific individual.
           </p>
         </div>
       </div>

@@ -13,7 +13,7 @@ html {
   font-family: "Rubik", sans-serif;
 }
 .glfuN {
-  background-color: #2874f0 !important;
+  background-color: rgb(23, 99, 121) !important;
 }
 
 /* Media query for smaller screens */
@@ -38,6 +38,7 @@ html {
     height: 150px !important;
   }
 
+
   /* Adjust font size for smaller screens */
   .lifvqk {
     font-size: 24px;
@@ -58,6 +59,7 @@ html {
   padding-bottom: 40px;
   white-space: pre-wrap;
 }
+
 
 .chatbot-container {
   margin: 20px; /* Adjust margins as needed */
@@ -95,7 +97,7 @@ html {
 
 
 .rsc-header {
-  background-color: #498fff !important;
+  background-color: rgb(23, 99, 121) !important;
 }
 
 .rounded-box {
